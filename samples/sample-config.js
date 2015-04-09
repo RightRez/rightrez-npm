@@ -2,7 +2,7 @@
 
 var sample_options = exports.sample_options = 
 { 
-	client_id: "", 
+	client_id: '', 
 	username: '', 
 	password: ''
 };
