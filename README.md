@@ -49,3 +49,11 @@ rightrez.availability.search(request, function (err, response) {
 ```
 
 This version only supports avail and booking, but more hooks will be added soon. Full documentation on all JSON endpoints is at https://rightweb.rightrez.com/webapi/help.
+
+# samples
+
+To run samples, set your credentials in sample/sample-config.js and then run the appropriate example from the command line, e.g.
+
+```
+node samples/availability.js
+```
