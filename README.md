@@ -57,3 +57,17 @@ To run samples, set your credentials in samples/sample-config.js and then run th
 ```
 node samples/availability.js
 ```
+
+# dev
+If you're working in this repo, please add the following as a pre-commit hook in your .git/hooks directory
+```
+#!/bin/sh
+#
+# Checksum of config files that may have client-specific info in
+# them, to make sure we don't accidentally check-in real usernames
+# or passwords.
+#
+md5sum -c hash.md5
+```
+
+This prevents accidentally checking in local changes to the sample-config.js file.
