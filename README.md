@@ -52,7 +52,7 @@ This version only supports avail and booking, but more hooks will be added soon.
 
 # samples
 
-To run samples, set your credentials in sample/sample-config.js and then run the appropriate example from the command line, e.g.
+To run samples, set your credentials in samples/sample-config.js and then run the appropriate example from the command line, e.g.
 
 ```
 node samples/availability.js
