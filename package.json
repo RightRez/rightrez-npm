@@ -1,6 +1,6 @@
 {
 	"name": "rightrez",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "RightRez JSON Web Services API Package",
 	"main": "index.js",
 	"author": "Nathan Ainslie <nainslie@rightrez.com>",
