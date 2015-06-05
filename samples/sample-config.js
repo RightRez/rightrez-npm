@@ -3,6 +3,5 @@
 var sample_options = exports.sample_options = 
     { 
 	client_id: '', 
-	username: '', 
-	password: ''
+	client_secret: ''
     };
